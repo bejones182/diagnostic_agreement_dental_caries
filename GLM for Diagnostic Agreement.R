@@ -4,7 +4,6 @@ library(haven)
 
 #Load Data (replace "diagnostic_agreement_data.dta" with your file path)
 # expected format: STATA file in long form, with columns for participantid, method, time, rater, tooth number (FDI), tooth surface, ICDAS value, and disease thresholds.
-#disease thresholds: initial caries- ICDAS dichtomised >=01, moderate caries- ICDAS dichtomised >=03, extensive caries- ICDAS dichtomised >=05, 
 
 data <- read_dta("diagnostic_agreement_data.dta") # 
 
